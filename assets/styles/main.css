@@ -402,7 +402,7 @@ img {
 }
 
 @media (max-width: 768px) {
-     .statistics-title {
+    .statistics-title {
         font-size: 24px;
     }
 
@@ -418,12 +418,12 @@ img {
     }
 
     .stats-digits {
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 45px;
+        font-weight: 500;
     }
 
     .statistic h2 {
         margin-top: 0;
-        font-size: 20px;
+        font-size: 24px;
     }
 }
