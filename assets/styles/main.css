@@ -455,7 +455,7 @@ img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 
 .contributor {
@@ -468,7 +468,7 @@ img {
 .contributor img {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 70%;
   margin-bottom: 5px;
   position: relative;
   z-index: 1;
@@ -498,16 +498,16 @@ img {
 
 .contributor a {
   text-decoration: none;
-  color: #333; /* Dark grey text color */
+  color: #333;
 }
 
 .community-stats {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 50px;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Very light grey box shadow */
-  background-color: #fff; /* White background */
+  background-color: #fff; 
 }
 
 .statistic {
@@ -557,4 +557,50 @@ img {
       margin-top: 0;
       font-size: 24px;
   }
+}
+
+
+/* Pioneer section styles */
+
+.pioneer-section {
+  text-align: center;
+  margin-top: 110px; /* Adjust as needed */
+  margin-bottom: 140px;
+}
+
+.pioneer-title {
+  text-align: center;
+  font-size: 36px;
+  color: #101E4A;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.related-title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 60px;
+  color: #666;
+}
+
+.pioneers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pioneer {
+  position: relative;
+  margin: 0 20px;
+}
+
+.pioneer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pioneer a[title]:hover::before {
+  opacity: 1;
 }
