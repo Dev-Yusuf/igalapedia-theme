@@ -1,13 +1,216 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Igala Archive - Home of Igala encyclopedia</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./assets/images/igala-logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="dictionary.html">Dictionary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Translator</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="price.html">API</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Documentaries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">News</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-texts">
+      <h1>The Digital Archive of <span class="make-green">Igala Heritage</span></h1>
+      <p>Igala language resource with audio pronunciations, <br> usage examples, word variations, <br> translations, documentaries, histories, and a comprehensive dictionary.</p>
+      <a href="https://github.com/yourgithubrepo" class="github-link"><i class="fab fa-github"></i> Contribute</a>
+   </section>
+
+  <section class="parent-features">
+      <div class="features-container">
+          <h2 class="section-title">Features</h2>
+          <div class="feature-cards">
+              <div class="feature-card">
+                  <div class="icon">
+                      <i class="fas fa-book"></i>
+                  </div>
+                  <h3 class="feature-title">Dictionary</h3>
+                  <p class="feature-description">Explore a vast collection of Igala words and their detailed definitions, all at your fingertips.</p>
+              </div>
+              <div class="feature-card">
+                  <div class="icon">
+                      <i class="fas fa-volume-up"></i>
+                  </div>
+                  <h3 class="feature-title">Pronunciations </h3>
+                  <p class="feature-description">Listen to authentic audio pronunciations of Igala words to enhance your language skills.</p>
+              </div>
+              <div class="feature-card">
+                  <div class="icon">
+                      <i class="fas fa-comment"></i>
+                  </div>
+                  <h3 class="feature-title">Usage Examples</h3>
+                  <p class="feature-description">Understand the context and usage of Igala words through real-world examples and sentences.</p>
+              </div>
+              <div class="feature-card">
+                  <div class="icon">
+                      <i class="fas fa-exchange-alt"></i>
+                  </div>
+                  <h3 class="feature-title">Variations</h3>
+                  <p class="feature-description">Discover variations of Igala words, allowing you to explore nuances in meaning and usage.</p>
+              </div>
+              <div class="feature-card">
+                  <div class="icon">
+                      <i class="fas fa-language"></i>
+                  </div>
+                  <h3 class="feature-title">Translator</h3>
+                  <p class="feature-description">Effortlessly translate Igala words or phrases into other languages for clear communication.</p>
+              </div>
+              <div class="feature-card">
+                  <div class="icon">
+                      <i class="fas fa-cogs"></i>
+                  </div>
+                  <h3 class="feature-title">API</h3>
+                  <p class="feature-description">Access our Igala language resources and features programmatically through our API for seamless integration.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="statistics-section">
+        <h1 class="statistics-title">Database Stats ⚡📈</h1>
+        <h2 class="related-title">By the Numbers</h2>
+        <div class="statistics-container">
+            <div class="statistic">
+                <p class="stats-digits">800</p>
+                <h2>Total Words</h2>
+            </div>
+            <div class="statistic">
+                <p class="stats-digits">400</p>
+                <h2>Total Examples</h2>
+            </div>
+            <div class="statistic">
+              <p class="stats-digits">500</p>
+              <h2>Total Igala Examples</h2>
+            </div>
+            <div class="statistic">
+              <p class="stats-digits">0</p>
+              <h2>Total Audio Pronunciations</h2> 
+            </div>
+        </div>
+    </section>
+    
+    <section class="community-section">
+      <h1 class="community-title">Community 🌟</h1>
+      <h2 class="related-title">Contributors</h2>
+      <div class="contributors-container">
+          <!-- Contributor item -->
+          <div class="contributor">
+              <a href="https://github.com/username1">
+                  <img src="assets/images/profile.jpg" alt="Profile 1" data-username="@username1">
+              </a>
+          </div>
+          <div class="contributor">
+            <a href="https://github.com/username1">
+                <img src="assets/images/profile.jpg" alt="Profile 1" data-username="@username1">
+            </a>
+        </div>
+        <div class="contributor">
+          <a href="https://github.com/username1">
+              <img src="assets/images/profile.jpg" alt="Profile 1" data-username="@username1">
+          </a>
+      </div>
+      <div class="contributor">
+        <a href="https://github.com/username1">
+            <img src="assets/images/profile.jpg" alt="Profile 1" data-username="@username1">
+        </a>
+    </div>
+          <!-- Repeat the contributor item for each contributor -->
+      </div>
+      <div class="community-stats">
+          <div class="statistic">
+              <p class="stats-digits">100</p>
+              <h2>GitHub Stars</h2>
+          </div>
+          <div class="statistic">
+            <p class="stats-digits">500+</p>
+            <h2>What'sApp Community</h2>
+          </div>
+      </div>
+  </section>
+
+
+  <section class="pioneer-section">
+    <h1 class="pioneer-title">Pioneers 🚀</h1>
+    <h2 class="related-title">Early adopters</h2>
+    <div class="pioneers-container">
+      <!-- Pioneer item -->
+      <div class="pioneer">
+        <a href="#" class="pioneer-link" title="Pioneer 1">
+          <img src="assets/images/profile.jpg" alt="Pioneer 1" data-pioneer="@pioneer1">
+        </a>
+      </div>
+      <div class="pioneer">
+        <a href="#" class="pioneer-link" title="Pioneer 2">
+          <img src="assets/images/profile.jpg" alt="Pioneer 2" data-pioneer="@pioneer2">
+        </a>
+      </div>
+      <div class="pioneer">
+        <a href="#" class="pioneer-link" title="Pioneer 3">
+          <img src="assets/images/profile.jpg" alt="Pioneer 3" data-pioneer="@pioneer3">
+        </a>
+      </div>
+      <div class="pioneer">
+        <a href="#" class="pioneer-link" title="Pioneer 4">
+          <img src="assets/images/avologo2.png" alt="Pioneer 4" data-pioneer="@pioneer4">
+        </a>
+      </div>
+      <!-- Repeat the pioneer item for each pioneer -->
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
